@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/algorithms/DijkstraOutput.h
+limits
+-
+vector
+-
+unordered_map
+-
+sstream
+-
+string
+-
+iostream
+-
+../graph/Graph.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Graph.h
+
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/entity/Object.h
+string
+-
+
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Edge.h
+Vertex.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Vertex.h
+string
+-
+sstream
+-
+
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Graph.h
+vector
+-
+unordered_map
+-
+unordered_set
+-
+sstream
+-
+string
+-
+Vertex.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Vertex.h
+Edge.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Edge.h
+../entity/Object.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/entity/Object.h
+
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Vertex.h
+string
+-
+../entity/Object.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/entity/Object.h
+
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/src/algorithms/DijkstraOutput.cpp
+iomanip
+-
+../../include/algorithms/DijkstraOutput.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/algorithms/DijkstraOutput.h
+../../include/graph/Graph.h
+/Users/matthewcheng/Desktop/CSCI 303/Projects/graphs/include/graph/Graph.h
+
